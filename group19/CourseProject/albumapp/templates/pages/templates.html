@@ -1,0 +1,12 @@
+<div class="templates">
+	{% for layout in layouts %}
+	<form action="/pages/select_page_layout/" method="post" style="float: left; margin-right: 30px;">
+		{% csrf_token %}
+		<input type="hidden" name="page_id" value="{{ page.id }}"/>
+		<input type="hidden" name="album_id" value="{{ album_id }}"/>
+		<input type="hidden" name="layout_id" value="{{ layout.id }}"/>
+		<button class="select_layout form-submit btn btn-large btn-success">Layout {{ layout.id }}</button>
+	</form>
+	{% endfor %}
+</div>
+

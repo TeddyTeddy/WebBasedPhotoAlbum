@@ -1,0 +1,9 @@
+<div class="aside span4 hero-unit">
+	<h2>Create album</h2>
+	<form action="/albums/create_album/" method="post">
+		{% csrf_token %}
+		<label>Album name: </label><input type="text" name="title"/>
+		<label>Title for the first page: </label><input type="text" name="page_text"/><br>	
+		<input type="submit" class="create_album btn" value="Create album" />
+	</form>
+</div>

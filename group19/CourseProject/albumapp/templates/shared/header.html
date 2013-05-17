@@ -1,0 +1,18 @@
+<div class="navbar navbar-inverse">
+	<div class="navbar-inner">
+		<div class="container">
+			{% if user.is_authenticated %}
+			<ul class="nav">
+				<li><a href="{% url albumapp.views.album_index %}">Albums</a></li>
+			</ul>
+			{% endif %}
+			<ul class="nav pull-right">
+				{% if user.is_authenticated %}
+					<li><a href="{% url albumapp.views.log_user_out %}">Logout</a></li>
+				{% else %}
+					<li><a href="{% url albumapp.views.login_page %}">Register</a></li>
+				{% endif %}
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{% block title %}{% endblock %}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascrit">
+			window.dragUrl = "";
+		</script>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.pnotify.min.js"></script>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-ui-1.10.2.custom.min.js"></script>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/application.js"></script>
+		<link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="{{ STATIC_URL }}css/jquery.pnotify.default.css" rel="stylesheet" media="screen">
+		<link href="{{ STATIC_URL }}css/jquery.pnotify.default.icons.css" rel="stylesheet" media="screen">
+		<link href="{{ STATIC_URL }}css/application.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
+		{% include "shared/header.html" %}
+		<div class="container-fluid">
+			<div class="row-fluid">
+			{% block basic_content %}{% endblock %}
+			{% block aside_content %}{% endblock %}
+			</div>
+	    </div>
+	    <hr>
+	    {% block footer %}
+	    {% include "shared/footer.html" %}
+	    {% endblock %}
+	    
+		{% if messages %}
+			<script type="text/javascript">
+			$(document).ready(function(){
+				{% for message in messages %}
+					var title = "";
+					var type = "{{ message.tags }}";
+					if (type == "error"){
+						title = "Warning";	
+					}
+					else if (type == "info"){
+						title = "Success";
+					}
+					$.pnotify({
+						title: title,
+						text: "{{ message }}",
+						type: type,
+				        width: "50%",
+				        delay: 5000,
+				        before_open: function(pnotify) {
+				            // Position this notice in the center of the screen.
+				            pnotify.css({
+				                "top": 0,
+				                "left": ($(window).width() / 2) - (pnotify.width() / 2)
+				            })
+			            } 
+					});
+				{% endfor %}				
+			});
+			</script>
+		{% endif %}
+   	</body>  	
+</html>		
+

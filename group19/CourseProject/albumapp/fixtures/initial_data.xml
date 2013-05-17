@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object pk="http://farm9.staticflickr.com/8238/8507471925_46331f5e87.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8110/8486154173_b891b8ec2e.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8096/8463004606_7e94543336.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8220/8432911029_b84b41da47.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8077/8424983428_6b45dd4701.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8046/8399158941_b98bc6e92e.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8098/8379281466_2e016737ff.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8075/8376560417_cb773c586c.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8071/8363281868_0b6df09f1b.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8056/8362263097_4215a8795c.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8213/8348897675_14e117215d.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8357/8312035437_a43220ec80.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8356/8295122290_85b42dbb09.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8082/8291195729_90520125d8.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8222/8278831890_0ccdea5775.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8075/8278826558_599d20fd93.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8067/8274449131_1f7b008073.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8363/8260365805_d274dc644a.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8493/8257013766_9645d4e794.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8066/8187243405_1a7fefd7b0.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8067/8158725750_eb84d271f7.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8050/8124422410_c9a4691bf8.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8326/8087076460_9e763cfff9.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8464/8080404506_893934369f.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8326/8075603205_73b776ec9e.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8452/8051368966_8ec6ba4d28.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8170/8046103183_8016c28bb6.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8453/8032157637_6ff017b1ba.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8311/8032158035_7ebf90f0b3.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8177/8032156523_5751e4262a.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8310/8029393442_15be4caeb2.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8442/8013959496_c5301a0dbd.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8442/8010161424_28e5afcd12.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8320/8007498201_1ba78c4c4f.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8315/7966337470_7520bbdc8d.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8176/7959620812_6ffded9d38.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8173/7938694764_be36a46e0e.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8447/7926259548_4f90185b9f.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8457/7909075060_827f615cc5.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8316/7897592162_cf7d3143b7.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8305/7869108810_1dd4f12cdb.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8435/7842350524_6d2a209392.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8301/7842349930_9eba354fd3.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7265/7842350990_c5d84d3edc.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8295/7842351626_fb4e4971b4.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8432/7842352382_245d9409cc.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8288/7842350698_b93a043bb0.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8442/7842351768_6f822abd06.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8308/7842349614_79a3a1dd6e.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8307/7842350834_dc62781d19.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8308/7842351432_76cafc4191.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8286/7842351960_ff1c3a6218.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8435/7842351148_031fe05c91.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8295/7842350368_c45cc5794f.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8298/7842351290_e101a19358.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7128/7842352486_b6f7f454ae.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8306/7842352204_6f36f42a90.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7131/7842349808_b4cf5c25ef.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8308/7842350080_cfe2e48a5d.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8301/7834488120_da898d08d5.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8431/7816839260_b1966b4db4.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8439/7813822318_829513dd1f.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8291/7760885008_b45c1fce64.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8290/7750095152_22760ed9a1.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7276/7750095266_d6c4f1a823.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8433/7721919890_a3412c60be.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8423/7713540000_03e778a903.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8431/7711905656_929c030fa0.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7264/7711904336_6e5855b86a.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8294/7711906860_a31a950152.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8430/7698139690_79a98ec053.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8027/7672477848_c98072201c.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7279/7672476452_3be6300923.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8012/7671997862_890ff2cfd4.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8421/7654176678_902fe02513.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8012/7654167004_5aa62c15cf.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8284/7654170172_07a423fd84.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8168/7654163942_853dbe94ca.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7119/7654127784_6c43b2db01.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8161/7654148134_ca502fbafb.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7135/7654141286_6142fcf7f8.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8166/7654131036_7f5910645e.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7133/7654155538_063fa0cf98.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7134/7654151954_502788d383.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8143/7654124684_43557d64b6.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7138/7654137828_2e4f0412a6.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8428/7654160030_c3941b1c03.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7274/7654134242_55be3fcb44.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7125/7654144540_ee0b0f0642.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7272/7648017860_b474700381.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8147/7648015068_8e9018a38e.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7115/7648016628_e4f323ee58.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7131/7648016388_07242266e4.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7246/7648016926_357477386f.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8426/7648016118_4f69225606.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm8.staticflickr.com/7139/7648018320_b2ce33289f.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8481/8257013924_e7da19d033.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8179/8007632956_d3e1f161e0.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8432/7764493630_b854eee3e6.jpg" model="albumapp.picture">
+    </object>
+    <object pk="http://farm9.staticflickr.com/8434/7654173994_f88a675875.jpg" model="albumapp.picture">
+    </object>
+    <object pk="1" model="albumapp.template">
+    	<field type="CharField" name="size">z</field>
+    	<field type="IntegerField" name="priority">1</field>
+    </object>
+    <object pk="2" model="albumapp.template">
+    	<field type="CharField" name="size">z</field>
+    	<field type="IntegerField" name="priority">2</field>
+    </object>
+    <object pk="3" model="albumapp.template">
+    	<field type="CharField" name="size">z</field>
+    	<field type="IntegerField" name="priority">3</field>
+    </object>
+    <object pk="4" model="albumapp.template">
+    	<field type="CharField" name="size">z</field>
+    	<field type="IntegerField" name="priority">4</field>
+    </object>
+    <object pk="5" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">1</field>
+    </object>
+    <object pk="6" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">2</field>
+    </object>
+    <object pk="7" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">3</field>
+    </object>
+    <object pk="8" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">4</field>
+    </object>
+    <object pk="9" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">5</field>
+    </object>
+    <object pk="10" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">6</field>
+    </object>
+    <object pk="11" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">7</field>
+    </object>
+    <object pk="12" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">8</field>
+    </object>
+    <object pk="13" model="albumapp.template">
+    	<field type="CharField" name="size">c</field>
+    	<field type="IntegerField" name="priority">1</field>
+    </object>
+    <object pk="14" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">2</field>
+    </object>    
+    <object pk="15" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">3</field>
+    </object>    
+    <object pk="16" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">4</field>
+    </object>
+    <object pk="17" model="albumapp.template">
+    	<field type="CharField" name="size">n</field>
+    	<field type="IntegerField" name="priority">9</field>
+    </object>    
+    <object pk="1" model="albumapp.layout">
+		<field to="albumapp.template" name="templates" rel="ManyToManyRel"><object pk="1"></object><object pk="2"></object><object pk="3"></object><object pk="4"></object></field>
+    </object> 
+    <object pk="2" model="albumapp.layout">
+		<field to="albumapp.template" name="templates" rel="ManyToManyRel"><object pk="5"></object><object pk="6"></object><object pk="7"></object><object pk="8"></object><object pk="9"></object><object pk="10"></object><object pk="11"></object><object pk="12"></object><object pk="17"></object></field>
+    </object>
+    <object pk="3" model="albumapp.layout">
+		<field to="albumapp.template" name="templates" rel="ManyToManyRel"><object pk="13"></object><object pk="14"></object><object pk="15"></object><object pk="16"></object></field>
+    </object> 
+</django-objects>

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block basic_content %}
+	{% block show_content %}
+		<div class="show_page hero-unit public">
+			{% if page.text != "" %}
+				<h1 style="margin-left: 5.7%; margin-top: -3%; margin-bottom: 3%;">{{page.text}}</h1>
+			{% else %}
+				<h1 style="margin-left: 5.7%; margin-top: -3%; margin-bottom: 3%;">Untitled Page</h1>
+			{% endif %}
+			<a href="{{ prev_link }}" class="left"><</a>
+			<h2 style="margin-left: 42.7%;">{{page_number}} / {{page_count}}</h2>
+			<a href="{{ next_link }}" class="right">></a>
+				<ul class="templates">
+				{% for template in page.layout.templates.all %}
+					<li class="img img-polaroid size_{{ template.size }}{% if template.size == "c" %} offset1{% endif %}" data-priority="{{ template.priority }}" data-size="{{template.size}}">
+						<div class="img-wrapper"><span class="badge badge-inverse">{{ template.priority }}</span></div>
+						<div class="caption" style="display:none;">
+							<input type="text" name="section_caption" placeholder="Your Text Here"/>
+						</div>
+					</li>
+				{% endfor %}
+				</ul>
+
+			</form>
+		</div>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				{% for section in section_list %}
+					sectionUrls.push("{{section.picture.link}}");
+					sectionCaptions.push("{{section.caption}}");
+					sectionPriorities.push("{{section.priority}}");
+					sectionIds.push("{{section.id}}");
+				{% endfor %}
+				populateTemplates(sectionPriorities, sectionUrls, sectionCaptions, sectionIds);
+			});
+		</script>
+	{% endblock %}
+{% endblock %}

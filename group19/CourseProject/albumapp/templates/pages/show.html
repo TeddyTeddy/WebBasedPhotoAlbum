@@ -1,0 +1,40 @@
+{% extends "pages/index.html" %}
+
+{% block show_content %}
+	<div class="show_page hero-unit" style="">
+		<form action="/albums/save_page/" method="post">
+			<input type="hidden" name="album_id" value="{{ album_id }}"/>
+			<input type="hidden" name="page_id" value="{{ page.id }}"/>
+			{% csrf_token %}
+			<ul class="templates">
+			{% for template in page.layout.templates.all %}
+				<li class="img img-polaroid size_{{ template.size }}{% if template.size == "c" %} offset1{% endif %}" data-priority="{{ template.priority }}" data-size="{{template.size}}">
+					<div class="img-wrapper"><span class="badge badge-inverse">{{ template.priority }}</span></div>
+					<div class="caption" style="display:none;">
+						<input type="text" name="section_caption" placeholder="Your Text Here"/>
+						<input type="hidden" name="picture_pk" value="">
+					</div>
+				</li>
+			{% endfor %}
+			</ul>
+			{% if page.text != "" %}
+				<input type="text" class="offset1" name="new_page_text" value="{{page.text}}"/>
+			{% else %}
+				<input type="text" class="offset1" name="new_page_text" placeholder="Untitled page"/>
+			{% endif %}
+			<a class="btn btn-success btn-medium form-submit" href="#"><i class="icon-ok">&nbsp;</i><span style="margin-left: 5px; margin-top:10px;">Save</span></a>
+		</form>
+	</div>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			{% for section in section_list %}
+				sectionUrls.push("{{section.picture.link}}");
+				sectionCaptions.push("{{section.caption}}");
+				sectionPriorities.push("{{section.priority}}");
+				sectionIds.push("{{section.id}}");
+			{% endfor %}
+			populateTemplates(sectionPriorities, sectionUrls, sectionCaptions, sectionIds);
+		});
+	</script>
+{% endblock %}

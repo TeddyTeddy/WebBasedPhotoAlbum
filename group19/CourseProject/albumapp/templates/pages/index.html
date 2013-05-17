@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Pages{% endblock %}
+
+{% block basic_content %}
+<div class="content span8">
+	<div class="pages_wrapper">
+		<div class="new_page">
+			<form action="{% url albumapp.views.add_page_to_album %}" method='post'>
+				{% csrf_token %}
+				<input type="text" name="title" placeholder="Title for the Page"/>
+				<input type="hidden" name="album_id" value="{{ album_id }}"/>
+				<button class="add_page form-submit btn btn-medium btn-primary" data-original-title="Add Page">
+					<i class="icon-plus-sign">&nbsp;</i>
+				</button>
+			</form>
+		</div>
+		<div class="pages_overflow">
+			<ul class="selector page">
+			{% for page in page_list %}
+				<li class="page">
+					<a href="{% url albumapp.views.show_page album_id page.id %}">
+					{% if page.text != "" %}
+						<span class="page_title">{{ page.text }}</span>
+					{% else %}
+						<span class="page_title">Untitled page</span>
+					{% endif %}
+					</a>
+					<form class='remove_page_form' style='display:inline!important;' action="{% url albumapp.views.remove_page_from_album %}" method='post'>
+						{% csrf_token %}
+						<input type="hidden" name="album_id" value="{{ album_id }}"/>
+						<input type="hidden" name="page_id" value="{{ page.id }}"/>
+						<a href="#" class="btn btn-mini btn-danger form-submit remove_page" style="margin-left: 10px;" data-original-title="Remove Page">
+							<i class="icon-remove-circle">&nbsp;</i>
+						</a>
+					</form>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+
+	</div>
+	<div class="clear">&nbsp;</div>
+	{% block show_content %}{% endblock %}
+
+</div>
+{% endblock %}
+
+{% block aside_content %}
+<div class="aside span4">
+	{% include "pictures/index.html" %}
+	{% include "pages/templates.html" %}
+</div>
+{% endblock %}

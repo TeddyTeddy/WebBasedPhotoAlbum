@@ -1,0 +1,44 @@
+<ul class="nav nav-tabs">
+	<li class="db_pictures active"><a href="#">Pictures</a></li>
+	<li class="flickr_pictures"><a href="#">Search Results</a></li>
+  	<li class="search">
+	  	<div id="search_flickr">
+	        <form id='flickr_search_form' class="form-search">
+	                <input type="text" class="input-medium search-query" name="text"/>
+	                <a class="search btn" href="#"><i class="icon-search">&nbsp;</i></a>
+	        </form>
+		</div>
+	</li>
+</ul>
+
+<div class="pictures hero-unit">
+	<div id="database_pictures">
+		<div class="wrapper">
+			<a href="#" class="left"><</a>
+			<h2>Pictures</h2>
+			<a href="#" class="right">></a>
+		</div>
+		<ul class="results">
+		</ul>
+	</div>
+	
+	<div id="flickr_search_results" style="display:none;">
+		<div class="wrapper">
+			<a href="#" class="left"><</a>
+			<h2>Search results</h2>
+			<a href="#" class="right">></a>
+		</div>
+		<ul class="results">		
+		</ul>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		{% for picture in picture_list %}
+			dbPictures.push("{{picture.link}}");
+		{% endfor %}
+		insertPicturesToPage($('#database_pictures .results'), dbPictures, left, right);
+	});
+</script>
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object pk="http://www.nasa.gov/images/content/717275main_solar_dance_full_full.jpg" model="albumapp.picture">
+    </object>
+</django-objects>

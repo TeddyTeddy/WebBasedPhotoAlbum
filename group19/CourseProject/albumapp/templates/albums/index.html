@@ -1,0 +1,58 @@
+
+{% extends "base.html" %}
+
+{% block title %}Album Index{% endblock %}
+
+{% block basic_content %}
+<div class="content span8">
+	<div class="albums">
+		<h1>Albums</h1>
+		<table class="albums table table-striped">
+			<tr><th>Name</th><th>Pages</th><th>Visibility</th><th>Share</th><th>Delete</th></tr>
+			{% for album in album_list %}
+			<tr>
+				<td>
+					<form action="/albums/change_album_title/" method="post">
+						{% csrf_token %}
+						<input type="hidden" name="album_id" value="{{ album.id }}"/>
+						<input type="text" name="new_album_title" value="{{ album.title }}"/>
+						<input type="submit" class="btn btn-primary" value="Change Title"/>
+					</form> 
+				</td>
+				<td><a href="{% url albumapp.views.page_index album.id %}">{{ album.pages.all.count }}</a></td>
+				<td>
+					<form action="/get_link/" method="post">
+						{% csrf_token %}
+        				<input type="submit" class="btn" value="Get public link"/>
+        				<input type="hidden" name="album_id" value="{{ album.id }}"/>
+						<input type="hidden" name="page_id" value="F"/>
+						<input type="hidden" name="operation" value="GET_LINK">
+					</form>
+				</td>
+				<td>
+					<form action="/get_link/" method="post">
+                        {% csrf_token %}
+                        <input type="submit" class="btn" value="Share to Facebook"/>
+                        <input type="hidden" name="album_id" value="{{ album.id }}"/>
+						<input type="hidden" name="page_id" value="F"/>
+                        <input type="hidden" name="operation" value="SHARE_TO_FACEBOOK">
+                    </form>
+
+				</td>
+				<td>		
+					<form action="/albums/delete_album/" method="post">
+						{% csrf_token %}
+						<input type="hidden" name="album_id" value="{{ album.id }}"/>
+						<input type="submit" class="btn btn-danger" value="Delete this album"/>
+					</form> 
+				</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</div>
+</div>
+{% endblock %}
+
+{% block aside_content %}
+	{% include "albums/new.html" %}
+{% endblock %}

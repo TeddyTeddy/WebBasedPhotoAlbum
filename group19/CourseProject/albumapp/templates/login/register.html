@@ -1,0 +1,8 @@
+Register:<br>
+<form action="/register/" class="form-signin" method="post">
+	{% csrf_token %}
+	<label>Username:</label><input type="text" name="username"/>
+	<label>Email (optional):</label><input type="text" name="email"/>
+	<label>Password:</label><input type="password" name="password"/>
+	<input type="submit" class="btn" value="Register!"/>
+</form>
